@@ -3,5 +3,21 @@
 version = 3
 
 [[package]]
-name = "projectname"
-version = "1.0.0"
+name = "citadel-agent-discord"
+version = "0.1.0"
+
+[[package]]
+name = "citadel-agent-matrix"
+version = "0.1.0"
+
+[[package]]
+name = "citadel-agent-revolt"
+version = "0.1.0"
+
+[[package]]
+name = "citadel-core"
+version = "0.1.0"
+
+[[package]]
+name = "citadel-interface"
+version = "0.1.0"

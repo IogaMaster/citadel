@@ -1,7 +1,6 @@
-[package]
-name = "harmony"
-version = "1.0.0"
-edition = "2021"
-
-[dependencies]
-# example = "1.0.0"
+[workspace]
+members = [
+    "core",
+    "interface",
+    "agents/*"
+]
