@@ -1,3 +1,5 @@
+# FIXME: Broken dockerfile due to new arch
+
 # Nix builder
 FROM nixos/nix:latest AS builder
 
@@ -24,5 +26,4 @@ WORKDIR /app
 COPY --from=builder /tmp/nix-store-closure /nix/store
 COPY --from=builder /tmp/build/result /app
 
-CMD ["/app/bin/harmony"]
-
+CMD ["/app/bin/citadel-core"]
